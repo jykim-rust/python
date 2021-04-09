@@ -14,7 +14,6 @@ def search4vowels(word:str)->bool:
 def search4letters(phrase:str,letters:str='aeiou')->set:
     return set(phrase).intersection(set(letters))
 #main function
-print(search4vowels("s"))
-print(search4letters("abcd"))
+
 
         
